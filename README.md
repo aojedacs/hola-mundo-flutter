@@ -1,3 +1,9 @@
-# hola_mundo
+# Hola Flutter
 
-A new Flutter project.
+Aplicacion basica para mostrar un texto y un boton utilizando flutter
+
+
+## Authors
+
+- [@aojedacs](https://www.github.com/aojedacs)
+
