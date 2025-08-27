@@ -12,9 +12,19 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Text('Hola Mundo!, Angel Ojeda'),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: saludar,
+          child: const Icon(Icons.add),
         ),
       ),
+      
     );
   }
+
+}
+
+void saludar() {
+  print('¡Hola Mundo!');
 }
